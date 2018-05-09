@@ -1,0 +1,52 @@
+{
+  "name": "pretty-ms",
+  "version": "1.0.1",
+  "description": "Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`",
+  "author": {
+    "name": "SocialSky Dev Team",
+    "email": "dev@socialskycorp.com",
+    "url": "http://www.socialskyinc.com"
+  },
+  "license": "OpenSYL",
+  "repository": "https://git.socialsky.io/socialsky/pretty-ms.git",
+  "bugs": {
+    "url": "https://git.socialsky.io/socialsky/pretty-ms/issues"
+  },
+  "homepage": "https://git.socialsky.io/socialsky/pretty-ms#readme",  
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pretty",
+    "prettify",
+    "human",
+    "humanize",
+    "humanized",
+    "readable",
+    "time",
+    "ms",
+    "milliseconds",
+    "duration",
+    "period",
+    "range",
+    "text",
+    "string",
+    "str",
+    "number",
+    "hrtime"
+  ],
+  "dependencies": {
+    "parse-ms": "^1.0.0",
+    "plur": "^2.1.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
